@@ -1,3 +1,9 @@
+CREATE DATABASE hospital_db;
+GO
+
+USE hospital_db;
+GO
+
 CREATE TABLE Pacientes (
     id_paciente INT PRIMARY KEY IDENTITY(1,1),
     nome VARCHAR(100) NOT NULL,
